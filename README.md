@@ -23,7 +23,7 @@
   <li>Download the ColoredConsole package </li>
   <li>Extract the downloaded package to a convenient location in your project directory.</li>
   <li>Import the 𝙲𝚘𝚗𝚜𝚘𝚕𝙲𝚘𝚕𝚘𝚛  class in your Java file:</li><br>
-      <pre>import static com.VerseMinds.ConsolColor;</pre>
+      <pre>import static VerseMinds.ConsolColor;</pre>
   <li>Start using ColoredConsole's methods to print colored output to the console:</li><br>
       <pre><code>print("Hello World");</code></pre>
       <pre><code>println("Hello World");</code></pre> 
