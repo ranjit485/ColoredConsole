@@ -1,5 +1,7 @@
-
-<h1>ColoredConsole</h1>
+<div align="center">
+  <img src="https://www.htmlcommentbox.com/storage/16387068_bandicam-2023-07-18-18-52-43-949.jpg" width="350" alt="accessibility text">
+</div>
+<h1>ColoredConsole - Add colors to console</h1>
 <p>ColoredConsole is a Java package designed to enhance console output by adding colored text and formatting options.With ColoredConsole, you can easily add colors and formatting to your console output, making it more visually appealing and easier to read.</p>
 <h2>Features</h2>
 <ul>
