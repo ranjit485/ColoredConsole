@@ -40,6 +40,11 @@ public class Main {
 
 
     // Methods for print output without new line
+
+    // Function for print blank print
+    public static void print(){
+        System.out.print("");
+    }
    
     public static void print(String output){
         System.out.print(output);
@@ -56,6 +61,11 @@ public class Main {
 
 
     // function for print output with new line
+
+    // Function for print blank print
+    public static void println(){
+        System.out.println();
+    }
    
     public static void println(String output){
         System.out.println(output);
@@ -76,20 +86,21 @@ public class Main {
 
 
     public static void main(String[] args) {
-        // print("Hello World");
-        print("Hello World",RED);
+        println();
+        println("Hello World",RED);
+        println("Hello World",GREEN);
+        println("Hello World",BLUE);
+        println("Hello World",YELLOW);
+        println("Hello World",CYAN);
+        println("Hello World",PURPLE);
+        println();
+        println("Hello World",BLACK,BG_RED);
+        println("Hello World",WHITE,BG_BLUE);
+        println("Hello World",BLACK,BG_YELLOW);
+        println("Hello World",BLACK,BG_WHITE);
+        println("Hello World",WHITE,BG_GREEN);
+        println("Hello World",BLACK,BRIGHT_BG_BLACK);
+        println("Hello World",BLACK,BG_CYAN);
 
-        // print("Hello World",RED,BG_WHITE);
-        // print("Hello World",BLACK,BG_YELLOW);
-        // print("Hello World",BLUE,BG_CYAN);
-        
-        // println("Hello World",RED);
-        // println("Hello World",BLUE);
-
-        // println("Hello World",RED,BG_WHITE);
-        // println("Hello World",BLACK,BG_YELLOW);
-        // println("Hello World",BLUE,BG_CYAN);
-
-        
     }
 }
